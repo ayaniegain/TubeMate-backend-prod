@@ -27,8 +27,8 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    // to: 'ravi@anchors.in',
-    to: 'ayancodejs@gmail.com',
+    to: 'ravi@anchors.in',
+    // to: 'ayancodejs@gmail.com',
     subject: 'Request a call back',
     text: `Name: ${name}\nPhone: ${phone}`,
   };
